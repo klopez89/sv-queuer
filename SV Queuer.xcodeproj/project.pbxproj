@@ -16,6 +16,12 @@
 		4931A7811FEC18090095EFEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7801FEC18090095EFEA /* LoginViewController.swift */; };
 		4931A7831FEC18190095EFEA /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7821FEC18190095EFEA /* ProjectsViewController.swift */; };
 		4931A7851FEC18380095EFEA /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7841FEC18380095EFEA /* ProjectViewController.swift */; };
+		C0308E992024E54C00F23F2F /* ProjectsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308E982024E54C00F23F2F /* ProjectsDataManager.swift */; };
+		C0308E9B2024E58B00F23F2F /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308E9A2024E58B00F23F2F /* APIRoutes.swift */; };
+		C0308E9D2024E6B900F23F2F /* UserDefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308E9C2024E6B900F23F2F /* UserDefaultValues.swift */; };
+		C0308E9F2024E78300F23F2F /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308E9E2024E78300F23F2F /* APIRequests.swift */; };
+		C0308EA12024E8BA00F23F2F /* ResultsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308EA02024E8BA00F23F2F /* ResultsUtility.swift */; };
+		C0308EA3202502D300F23F2F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0308EA2202502D300F23F2F /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,12 @@
 		4931A7801FEC18090095EFEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4931A7821FEC18190095EFEA /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		4931A7841FEC18380095EFEA /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		C0308E982024E54C00F23F2F /* ProjectsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsDataManager.swift; sourceTree = "<group>"; };
+		C0308E9A2024E58B00F23F2F /* APIRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoutes.swift; sourceTree = "<group>"; };
+		C0308E9C2024E6B900F23F2F /* UserDefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultValues.swift; sourceTree = "<group>"; };
+		C0308E9E2024E78300F23F2F /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		C0308EA02024E8BA00F23F2F /* ResultsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsUtility.swift; sourceTree = "<group>"; };
+		C0308EA2202502D300F23F2F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +103,13 @@
 				4931A76C1FEC11C10095EFEA /* Info.plist */,
 				4931A7801FEC18090095EFEA /* LoginViewController.swift */,
 				4931A7821FEC18190095EFEA /* ProjectsViewController.swift */,
+				C0308E982024E54C00F23F2F /* ProjectsDataManager.swift */,
 				4931A7841FEC18380095EFEA /* ProjectViewController.swift */,
+				C0308E9A2024E58B00F23F2F /* APIRoutes.swift */,
+				C0308E9E2024E78300F23F2F /* APIRequests.swift */,
+				C0308E9C2024E6B900F23F2F /* UserDefaultValues.swift */,
+				C0308EA02024E8BA00F23F2F /* ResultsUtility.swift */,
+				C0308EA2202502D300F23F2F /* Alerts.swift */,
 			);
 			path = "SV Queuer";
 			sourceTree = "<group>";
@@ -209,9 +227,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4931A7851FEC18380095EFEA /* ProjectViewController.swift in Sources */,
+				C0308E9B2024E58B00F23F2F /* APIRoutes.swift in Sources */,
+				C0308E9F2024E78300F23F2F /* APIRequests.swift in Sources */,
+				C0308E992024E54C00F23F2F /* ProjectsDataManager.swift in Sources */,
 				4931A7831FEC18190095EFEA /* ProjectsViewController.swift in Sources */,
+				C0308EA12024E8BA00F23F2F /* ResultsUtility.swift in Sources */,
+				C0308E9D2024E6B900F23F2F /* UserDefaultValues.swift in Sources */,
 				4931A7811FEC18090095EFEA /* LoginViewController.swift in Sources */,
 				4931A7631FEC11C10095EFEA /* ViewController.swift in Sources */,
+				C0308EA3202502D300F23F2F /* Alerts.swift in Sources */,
 				4931A7611FEC11C10095EFEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
